@@ -1,0 +1,160 @@
+/* 1em = 16px = 100% */
+/******************************    TAGS    ******************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: #222831;
+  color: white;
+}
+
+h1 {
+  font-size: 6.5625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #00adb5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #00adb5;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #00adb5;
+}
+
+a {
+  color: #11999e;
+}
+
+hr {
+  border: none;
+  border-top: dotted;
+  width: 5%;
+  border-width: 5px;
+  border-color: #eeeeee;
+  opacity: 0.5;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a:hover {
+  color: white;
+}
+/******************************    CLASSES    ******************************/
+
+.top-container {
+  background-color: #eeeeee;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  margin-top: 40px;
+  background-color: #00adb5;
+  padding: 50px 0px 10px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 25.625%;
+  top: 37%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 9%;
+}
+
+.photos {
+  width: 200px;
+}
+
+.profile {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.image-coding {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.image-gaming {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-desc {
+  width: 40%;
+  margin: auto;
+}
+
+.coding-heading {
+  color: #11999e;
+}
+
+.gaming-heading {
+  color: #11999e;
+}
+
+.gaming {
+  text-align: right;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.grind-apex-text {
+  margin-bottom: 65px;
+  margin-top: 45px;
+}
+
+.copyright-text {
+  color: white;
+}
+
+.footer-link {
+  margin: 40px 60px;
+  text-decoration: none;
+  color: #393e46;
+}
